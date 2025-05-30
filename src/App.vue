@@ -21,9 +21,7 @@ const mobileMode = ref(window.innerWidth < 800)
 
 const calenderStyle = reactive({})
 
-const gridArea = reactive({
-  'grid-template-columns': '15vw 85vw',
-})
+const gridArea = reactive({ 'grid-template-columns': '15vw 85vw' })
 
 const animateCalender = reactive({
   animate__animated: true,
@@ -33,10 +31,7 @@ const animateCalender = reactive({
   shrink_animation: false,
 })
 
-const animateSideBar = reactive({
-  slideIn_animation: false,
-  slideOut_animation: false,
-})
+const animateSideBar = reactive({ slideIn_animation: false, slideOut_animation: false })
 
 function changeMonth(newMonth) {
   if (newMonth > currentMonth.value) {

@@ -13,17 +13,17 @@
   "dependencies": {
     "joi": "^17.13.3",
     "js-cookie": "^3.0.5",
-    "vue": "^3.4.38"
+    "vue": "^3.5.14"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.4",
-    "@types/bcryptjs": "^2.4.6",
+    "@rushstack/eslint-patch": "^1.11.0",
+    "@types/bcryptjs": "^3.0.0",
     "@types/js-cookie": "^3.0.6",
-    "@vitejs/plugin-vue": "^5.1.2",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "eslint": "^9.9.0",
-    "eslint-plugin-vue": "^9.23.0",
-    "prettier": "^3.2.5",
-    "vite": "^5.4.1"
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.5"
   }
 }
