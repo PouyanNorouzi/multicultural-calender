@@ -87,7 +87,7 @@ export async function addEvent(event) {
     description: Joi.string().max(150).required(),
     country: Joi.number().min(0).max(5).required(),
     month: Joi.number().min(0).max(11).required(),
-    dayNumber: Joi.number().min(0).max(30).required(),
+    dayNumber: Joi.number().min(0).max(31).required(),
     holiday: Joi.bool().required(),
     source: Joi.string().allow('').uri().optional(),
     userId: Joi.string().required(),
