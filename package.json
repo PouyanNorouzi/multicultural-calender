@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "joi": "^17.13.3",
-    "js-cookie": "^3.0.5",
+    "js-cookie": "^3.0.7",
     "vue": "^3.5.14"
   },
   "devDependencies": {
